@@ -1,20 +1,8 @@
-/* .gradient-text {
-  background: linear-gradient(to right, #632ee3, #9f62f2);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.line-height{
-    line-height: 60px;
-}
-.Header-p{
-    width: 767px;
-    text-align: center;
-    
-} */
+
 
 .hero-section {
   text-align: center;
-  padding: 80px 20px;
+  padding: 80px 0px;
   background: #fff;
 }
 
@@ -69,4 +57,39 @@
 .store-btn img {
   width: 20px;
   height: 20px;
+}
+
+.heroImg{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 720px;
+}
+
+.reviewBg{
+    background: linear-gradient(to right, #632ee3, #9f62f2);
+    color: white;
+    max-width: auto;
+    height: 320px;
+}
+
+.reviewTitle{
+    font-size: 45px;
+    font-weight:700;
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    gap: 175px;
+}
+
+.reviewText{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.reviewTextP{
+    font-size: 14px;
+    opacity: 70%;
 }
