@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Forest: Focus For Productivity",
+    "image": "https://i.ibb.co.com/5g8NxZ45/demo-app-1.webp",
+    "downloads": "9M",
+    "rating": 5,
+    "downloadsHistory": [1000, 2000, 3000, 4000],
+    "ratingHistory": [4, 4, 5, 5]
+  },
+  {
+    "name": "SmPlan: ToDo List With Reminder",
+    "image": "https://i.ibb.co.com/qYtcVm6g/demo-app-2.webp",
+    "downloads": "4M",
+    "rating": 4,
+    "downloadsHistory": [500, 1000, 1500, 2000],
+    "ratingHistory": [3, 4, 4, 4]
+  },
+  {
+    "name": "FLIP - Focus Timer For Study",
+    "image": "https://i.ibb.co.com/k6DxvLp7/demo-app-3.webp",
+    "downloads": "3.5M",
+    "rating": 5,
+    "downloadsHistory": [800, 1600, 2400, 3200],
+    "ratingHistory": [4, 5, 5, 5]
+  },
+  {
+    "name": "Pomocat - Cute Pomodoro Timer",
+    "image": "https://i.ibb.co.com/MkSyFWbg/demo-app-4.webp",
+    "downloads": "2M",
+    "rating": 4,
+    "downloadsHistory": [400, 800, 1200, 1600],
+    "ratingHistory": [3, 4, 4, 4]
+  },
+  {
+    "name": "Time Planner: Schedule & Tasks",
+    "image": "https://i.ibb.co.com/JRDckFcj/demo-app-5.webp",
+    "downloads": "1.2M",
+    "rating": 5,
+    "downloadsHistory": [300, 600, 900, 1200],
+    "ratingHistory": [4, 5, 5, 5]
+  },
+  {
+    "name": "Morning Habits - Daily Routine",
+    "image": "https://i.ibb.co.com/Q7JWMdcG/demo-app-6.webp",
+    "downloads": "1M",
+    "rating": 4,
+    "downloadsHistory": [250, 500, 750, 1000],
+    "ratingHistory": [3, 4, 4, 4]
+  },
+  {
+    "name": "Focus Plant: Pomodoro Forest",
+    "image": "https://i.ibb.co.com/qYtcVm6g/demo-app-2.webp",
+    "downloads": "900K",
+    "rating": 5,
+    "downloadsHistory": [200, 400, 600, 800],
+    "ratingHistory": [4, 5, 5, 5]
+  },
+  {
+    "name": "Alarmy - Alarm Clock & Sleep",
+    "image": "https://i.ibb.co.com/JRDckFcj/demo-app-5.webp",
+    "downloads": "8M",
+    "rating": 5,
+    "downloadsHistory": [1000, 2000, 3000, 4000],
+    "ratingHistory": [5, 5, 5, 5]
+  },
+  {
+    "name": "Forest: Focus For Productivity",
+    "image": "https://i.ibb.co.com/5g8NxZ45/demo-app-1.webp",
+    "downloads": "9M",
+    "rating": 5,
+    "downloadsHistory": [1000, 2000, 3000, 4000],
+    "ratingHistory": [4, 4, 5, 5]
+  },
+  {
+    "name": "SmPlan: ToDo List With Reminder",
+    "image": "https://i.ibb.co.com/qYtcVm6g/demo-app-2.webp",
+    "downloads": "4M",
+    "rating": 4,
+    "downloadsHistory": [500, 1000, 1500, 2000],
+    "ratingHistory": [3, 4, 4, 4]
+  },
+  {
+    "name": "FLIP - Focus Timer For Study",
+    "image": "https://i.ibb.co.com/k6DxvLp7/demo-app-3.webp",
+    "downloads": "3.5M",
+    "rating": 5,
+    "downloadsHistory": [800, 1600, 2400, 3200],
+    "ratingHistory": [4, 5, 5, 5]
+  },
+  {
+    "name": "Pomocat - Cute Pomodoro Timer",
+    "image": "https://i.ibb.co.com/MkSyFWbg/demo-app-4.webp",
+    "downloads": "2M",
+    "rating": 4,
+    "downloadsHistory": [400, 800, 1200, 1600],
+    "ratingHistory": [3, 4, 4, 4]
+  },
+  {
+    "name": "Time Planner: Schedule & Tasks",
+    "image": "https://i.ibb.co.com/JRDckFcj/demo-app-5.webp",
+    "downloads": "1.2M",
+    "rating": 5,
+    "downloadsHistory": [300, 600, 900, 1200],
+    "ratingHistory": [4, 5, 5, 5]
+  },
+  {
+    "name": "Morning Habits - Daily Routine",
+    "image": "https://i.ibb.co.com/Q7JWMdcG/demo-app-6.webp",
+    "downloads": "1M",
+    "rating": 4,
+    "downloadsHistory": [250, 500, 750, 1000],
+    "ratingHistory": [3, 4, 4, 4]
+  },
+  {
+    "name": "Focus Plant: Pomodoro Forest",
+    "image": "https://i.ibb.co.com/qYtcVm6g/demo-app-2.webp",
+    "downloads": "900K",
+    "rating": 5,
+    "downloadsHistory": [200, 400, 600, 800],
+    "ratingHistory": [4, 5, 5, 5]
+  },
+  {
+    "name": "Alarmy - Alarm Clock & Sleep",
+    "image": "https://i.ibb.co.com/JRDckFcj/demo-app-5.webp",
+    "downloads": "8M",
+    "rating": 5,
+    "downloadsHistory": [1000, 2000, 3000, 4000],
+    "ratingHistory": [5, 5, 5, 5]
+  }
+]

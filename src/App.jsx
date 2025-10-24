@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Component/Header/Header'
 import Navbar from './Component/Navbar/Navbar'
+import TrendingApps from './Component/TrendingApps/TrendingApps'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Header></Header>
+      <TrendingApps></TrendingApps>
       
     </>
   )
