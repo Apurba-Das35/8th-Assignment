@@ -18,3 +18,19 @@
   text-decoration: none;
 }
 
+
+.inactive-link {
+  color: #555;
+  transition: all 0.3s ease;
+}
+
+
+.active-link {
+  color: #7b3ff3; 
+  border-bottom: 2px solid #7b3ff3;
+}
+
+.inactive-link:hover {
+  color: #7b3ff3;
+}
+
