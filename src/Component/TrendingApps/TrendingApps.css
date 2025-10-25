@@ -66,12 +66,13 @@
 }
 
 .app-name {
+  font-size: 13px;
   font-weight: 500;
   color: #1e293b;
   margin-bottom: 8px;
 }
 
-.app-meta {
+.app-rating-download {
   display: flex;
   justify-content: space-between;
   color: #6b7280;
@@ -92,4 +93,13 @@
 
 .show-btn:hover {
   opacity: 0.9;
+}
+
+.no-apps{
+  display: flex;
+  justify-content: center;
+}
+
+.no-apps-img{
+  width: 300px;
 }

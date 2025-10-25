@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from "react";
 import './TrendingApps.css'
 import { useNavigate, useLocation } from "react-router-dom";
+import appNoFine from '../../pic/App-Error.png'
 
 const TrendingApps = () => {
 
@@ -82,16 +83,16 @@ const TrendingApps = () => {
                   backgroundPosition: "center",
                 }}
               ></div>
-              <p className="app-name">{app.name || "Unnamed App"}</p>
-              <p className="app-details">{app.details || "No details available"}</p>
-              <div className="app-meta">
+              <p className="app-name">{app.name || "Undifind App"}</p>
+              {/* <p className="app-details">{app.details || "No details available"}</p> */}
+              <div className="app-rating-download">
                 <span className="downloads"> 📥 {app.downloads || 0}</span>
                 <span className="rating"> ⭐ {app.rating || 0}</span>
               </div>
             </div>
           ))
         ) : (
-          <div className="no-apps">No apps found.</div>
+          <div className="no-apps"> <img className='no-apps-img' src={appNoFine} alt=" No apps found" /></div>
         )}
       </div>
 
