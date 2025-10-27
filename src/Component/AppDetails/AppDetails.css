@@ -1,0 +1,56 @@
+.app-details {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.details-header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.details-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.developer {
+  color: gray;
+  font-size: 14px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.install-btn {
+  background: linear-gradient(135deg, #6B35E5, #9F62F2);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.details-body {
+  margin-top: 30px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #6B35E5;
+  font-weight: 600;
+}

@@ -1,12 +1,11 @@
-import './App.css'
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from './Component/Header/Header'
-import Navbar from './Component/Navbar/Navbar'
-import TrendingApps from './Component/TrendingApps/TrendingApps'
-
+import Header from './Component/Header/Header';
+import Navbar from './Component/Navbar/Navbar';
+import TrendingApps from './Component/TrendingApps/TrendingApps';
+import AppDetails from './Component/AppDetails/AppDetails'; // 🆕 Import added
 
 function App() {
-
   return (
     <Router>
       {/* Navbar show all page */}
@@ -24,11 +23,14 @@ function App() {
           }
         />
 
-        {/* Apps Page */}
+        {/* All Apps Page */}
         <Route path="/apps" element={<TrendingApps />} />
+
+        {/* Single App Details Page */}
+        <Route path="/app/:id" element={<AppDetails />} /> {/* 🆕 New Route */}
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

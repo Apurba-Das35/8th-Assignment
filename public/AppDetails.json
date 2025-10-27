@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "name": "SmPlan: ToDo List & Reminder",
+    "developer": "HERO.IO",
+    "downloads": "8M+",
+    "rating": "4.9",
+    "reviews": "54K",
+    "size": "25MB",
+    "image": "https://i.ibb.co.com/5g8NxZ45/demo-app-1.webp",
+    "description": "SmPlan helps you organize your day efficiently with smart task reminders, goal tracking, and daily planning. Stay productive with one tap.",
+    "ratings": {
+      "5": 82,
+      "4": 12,
+      "3": 4,
+      "2": 1,
+      "1": 1
+    }
+  },
+  {
+    "id": "2",
+    "name": "PhotoPro Editor",
+    "developer": "HERO.IO",
+    "downloads": "12M+",
+    "rating": "4.8",
+    "reviews": "63K",
+    "size": "40MB",
+    "image": "https://i.ibb.co.com/5g8NxZ45/demo-app-1.webp",
+    "description": "PhotoPro is a professional-grade photo editor packed with powerful filters, AI effects, and advanced retouching tools — right on your phone.",
+    "ratings": {
+      "5": 90,
+      "4": 8,
+      "3": 2
+    }
+  },
+  {
+    "id": "3",
+    "name": "FitNow: Health Tracker",
+    "developer": "HERO.IO",
+    "downloads": "5M+",
+    "rating": "4.7",
+    "reviews": "21K",
+    "size": "35MB",
+    "image": "/images/fitnow.png",
+    "description": "Track your fitness journey with FitNow! Monitor your steps, workouts, and calories burned, and stay motivated with smart reminders.",
+    "ratings": {
+      "5": 75,
+      "4": 18,
+      "3": 5,
+      "2": 1,
+      "1": 1
+    }
+  }
+]

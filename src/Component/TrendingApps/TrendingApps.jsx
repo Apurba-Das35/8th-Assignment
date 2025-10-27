@@ -1,25 +1,23 @@
-import React from 'react';
-import { useState, useEffect } from "react";
-import './TrendingApps.css'
+import React, { useState, useEffect } from 'react';
+import './TrendingApps.css';
 import { useNavigate, useLocation } from "react-router-dom";
-import appNoFine from '../../pic/App-Error.png'
+import appNoFine from '../../pic/App-Error.png';
 
 const TrendingApps = () => {
-
-   const [apps, setApps] = useState([]);
+  const [apps, setApps] = useState([]);
   const [showAll, setShowAll] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
   const location = useLocation();
 
-//   app show all
+  // Show all apps on /apps route
   useEffect(() => {
     if (location.pathname === "/apps") {
       setShowAll(true);
     }
   }, [location.pathname]);
 
-  // data load from json
+  // Load data from JSON
   useEffect(() => {
     fetch("/appData.json")
       .then((res) => res.json())
@@ -27,7 +25,7 @@ const TrendingApps = () => {
       .catch((err) => console.error("Error loading apps:", err));
   }, []);
 
-  // Search bar filter
+  // Search filter
   const filteredApps = apps.filter((app) => {
     const terms = searchTerm.toLowerCase().split(" ").filter(Boolean);
     const name = app.name || "";
@@ -40,14 +38,13 @@ const TrendingApps = () => {
 
   const visibleApps = showAll ? filteredApps : filteredApps.slice(0, 8);
 
-  // Show All Button
   const handleShowAll = () => {
     setShowAll(true);
     navigate("/apps");
   };
 
-    return (
-        <section className="apps-section">
+  return (
+    <section className="apps-section">
       <h2 className="apps-title">
         {showAll ? "Our All Applications" : "Trending Apps"}
       </h2>
@@ -74,7 +71,11 @@ const TrendingApps = () => {
       <div className="apps-grid">
         {visibleApps.length > 0 ? (
           visibleApps.map((app, index) => (
-            <div key={index} className="app-card">
+            <div
+              key={index}
+              className="app-card"
+              onClick={() => navigate(`/app/${app.id}`)} // 🆕 click to go details
+            >
               <div
                 className="app-image"
                 style={{
@@ -83,8 +84,7 @@ const TrendingApps = () => {
                   backgroundPosition: "center",
                 }}
               ></div>
-              <p className="app-name">{app.name || "Undifind App"}</p>
-              {/* <p className="app-details">{app.details || "No details available"}</p> */}
+              <p className="app-name">{app.name || "Undefined App"}</p>
               <div className="app-rating-download">
                 <span className="downloads"> 📥 {app.downloads || 0}</span>
                 <span className="rating"> ⭐ {app.rating || 0}</span>
@@ -92,7 +92,9 @@ const TrendingApps = () => {
             </div>
           ))
         ) : (
-          <div className="no-apps"> <img className='no-apps-img' src={appNoFine} alt=" No apps found" /></div>
+          <div className="no-apps">
+            <img className='no-apps-img' src={appNoFine} alt="No apps found" />
+          </div>
         )}
       </div>
 
@@ -103,8 +105,7 @@ const TrendingApps = () => {
         </button>
       )}
     </section>
-
-    );
+  );
 };
 
 export default TrendingApps;
