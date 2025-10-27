@@ -10,7 +10,7 @@ const TrendingApps = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Show all apps on /apps route
+  // Show all apps 
   useEffect(() => {
     if (location.pathname === "/apps") {
       setShowAll(true);
@@ -74,7 +74,7 @@ const TrendingApps = () => {
             <div
               key={index}
               className="app-card"
-              onClick={() => navigate(`/app/${app.id}`)} // 🆕 click to go details
+              onClick={() => navigate(`/app/${app.id}`)}
             >
               <div
                 className="app-image"

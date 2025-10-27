@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './Component/Header/Header';
 import Navbar from './Component/Navbar/Navbar';
 import TrendingApps from './Component/TrendingApps/TrendingApps';
-import AppDetails from './Component/AppDetails/AppDetails'; // 🆕 Import added
+import AppDetails from './Component/AppDetails/AppDetails';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/apps" element={<TrendingApps />} />
 
         {/* Single App Details Page */}
-        <Route path="/app/:id" element={<AppDetails />} /> {/* 🆕 New Route */}
+        <Route path="/app/:id" element={<AppDetails />} />
       </Routes>
     </Router>
   );
